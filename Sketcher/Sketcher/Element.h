@@ -16,6 +16,16 @@ public:
 protected:
 	CElement();
 	CElement(const CPoint& start, COLORREF color, int penWidth = 1);
+	//´´½¨¸Ö±Ê
+	void CreatePen(CPen& aPen)
+	{
+		if (!aPen.CreatePen(PS_SOLID, m_PenWidth, m_Color))
+		{
+			//¸Ö±Ê´´½¨Ê§°Ü
+			AfxMessageBox(_T("¸Ö±Ê´´½¨Ê§°Ü"), MB_OK);
+			AfxAbort();
+		}
+	}
 };
 
 

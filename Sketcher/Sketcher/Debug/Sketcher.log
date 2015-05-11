@@ -1,19 +1,18 @@
-﻿生成启动时间为 2015/5/10 21:40:52。
+﻿生成启动时间为 2015/5/11 13:37:59。
      1>项目“C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Sketcher\Sketcher.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          F:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Sketcher.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp Curve.cpp Element.cpp Line.cpp Rectangle.cpp Sketcher.cpp SketcherView.cpp
-         Rectangle.cpp
          Line.cpp
+         正在生成代码...
+         正在编译...
+         Rectangle.cpp
          Element.cpp
          Curve.cpp
          Circle.cpp
          正在生成代码...
-         正在编译...
-         Sketcher.cpp
-         正在生成代码...
-         正在编译...
+         正在跳过...(未检测到相关更改)
          SketcherView.cpp
-         正在生成代码...
+         Sketcher.cpp
        Link:
          F:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Debug\Sketcher.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:F:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Debug\Sketcher.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Debug\Sketcher.lib" /MACHINE:X86 Debug\Sketcher.res
          Debug\ChildFrm.obj
@@ -27,10 +26,9 @@
          Debug\SketcherDoc.obj
          Debug\SketcherView.obj
          Debug\stdafx.obj
-     1>Line.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall CLine::Draw(class CDC *)" (?Draw@CLine@@UAEXPAVCDC@@@Z)
-     1>C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Debug\Sketcher.exe : fatal error LNK1120: 1 个无法解析的外部命令
-     1>已完成生成项目“C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Sketcher\Sketcher.vcxproj”(Build 个目标)的操作 - 失败。
+         Sketcher.vcxproj -> C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Debug\Sketcher.exe
+     1>已完成生成项目“C:\Users\wangshuang\Desktop\新建文件夹 (2)\Sketcher\Sketcher\Sketcher.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:06.74
+已用时间 00:00:16.89
